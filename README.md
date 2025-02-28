@@ -1,7 +1,7 @@
-# OpenWeatherSdk
+# WeatherApi
 
 ## Введение
-weatherApi позволяет получить данные о погоде в формате JSON, запрошенные у OpenWeatherMap.
+WeatherApi позволяет получить данные о погоде в формате JSON, запрошенные у OpenWeatherMap.
 
 ## Контент
 - [Запуск](#запуск)
