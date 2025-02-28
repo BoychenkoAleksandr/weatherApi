@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Погода</title>
+</head>
+<body>
+<div>
+    <h1>Авторизация</h1>
+    <form action="/mainPageWithoutAuth" method="get">
+        <label>
+            <input type="text" name="APIKey" placeholder="Введите API ключ" size="30" required>
+        </label><br>
+        <p>Выберите режим</p>
+        <label>
+            <select name="mode" style ="width: 247px; height: 21px" required>
+                <option value="ON_DEMAND">По запросу</option>
+                <option value="POLLING">В режиме опроса</option>
+            </select>
+        </label><br><br>
+        <button type="submit">Войти</button>
+    </form>
+</div>
+</body>
+</html>
