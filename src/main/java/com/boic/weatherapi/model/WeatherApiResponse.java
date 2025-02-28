@@ -1,10 +1,9 @@
-package com.boic.weather.model;
+package com.boic.weatherapi.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.boic.weather.handler;
+package com.boic.weatherapi.handler;
 
 import feign.Response;
 import feign.codec.ErrorDecoder;

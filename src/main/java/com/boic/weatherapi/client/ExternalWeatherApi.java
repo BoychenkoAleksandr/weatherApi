@@ -1,6 +1,7 @@
-package com.boic.weather.client;
+package com.boic.weatherapi.client;
 
-import com.boic.weather.model.WeatherApiResponse;
+
+import com.boic.weatherapi.model.WeatherApiResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

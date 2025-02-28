@@ -1,7 +1,7 @@
-package com.boic.weather.repository;
+package com.boic.weatherapi.repository;
 
-import com.boic.weather.mode.Mode;
-import com.boic.weather.model.WeatherApiResponse;
+import com.boic.weatherapi.mode.Mode;
+import com.boic.weatherapi.model.WeatherApiResponse;
 import lombok.Getter;
 import org.springframework.stereotype.Component;
 
@@ -26,7 +26,7 @@ public class WeatherRepository {
                 return cityMap.get(city);
             else
                 cityMap.remove(city);
-        };
+        }
         return null;
     }
 

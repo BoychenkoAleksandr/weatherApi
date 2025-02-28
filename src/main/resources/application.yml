@@ -1,1 +1,7 @@
-spring.application.name=weatherApi
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          weather:
+            url: http://api.openweathermap.org/data/2.5/weather

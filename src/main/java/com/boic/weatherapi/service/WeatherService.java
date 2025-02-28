@@ -1,14 +1,13 @@
-package com.boic.weather.service;
+package com.boic.weatherapi.service;
 
-import com.boic.weather.mode.Mode;
-import com.boic.weather.client.ExternalWeatherApi;
-import com.boic.weather.model.WeatherApiResponse;
-import com.boic.weather.repository.WeatherRepository;
+import com.boic.weatherapi.client.ExternalWeatherApi;
+import com.boic.weatherapi.mode.Mode;
+import com.boic.weatherapi.model.WeatherApiResponse;
+import com.boic.weatherapi.repository.WeatherRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;

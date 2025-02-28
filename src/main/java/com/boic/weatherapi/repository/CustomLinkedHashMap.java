@@ -1,4 +1,4 @@
-package com.boic.weather.repository;
+package com.boic.weatherapi.repository;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

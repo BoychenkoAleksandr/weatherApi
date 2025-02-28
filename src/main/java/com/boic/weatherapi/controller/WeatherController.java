@@ -1,17 +1,17 @@
-package com.boic.weather.controller;
+package com.boic.weatherapi.controller;
 
-import com.boic.weather.client.ExternalWeatherApi;
-import com.boic.weather.model.WeatherApiResponse;
-import com.boic.weather.service.WeatherService;
+import com.boic.weatherapi.model.WeatherApiResponse;
+import com.boic.weatherapi.service.WeatherService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequiredArgsConstructor
 public class WeatherController {
-    private final ExternalWeatherApi externalWeatherApi;
     private final WeatherService service;
 
     @GetMapping("/")
